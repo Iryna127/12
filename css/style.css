@@ -1,0 +1,63 @@
+.wrapper {
+  max-width: 180px;
+  margin: 0 auto;
+}
+h1 {
+  color: darkblue;
+}
+.street-light {
+  border: 1px solid black;
+  width: 130px;
+  background-color: rgb(35, 56, 56);
+  border-radius: 50px;
+  margin: 20px 20px;
+}
+.light {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: dimgray;
+}
+.light--red {
+  background-color: rgb(58, 2, 2);
+}
+.light.light--red.active {
+  background-color: rgb(189, 12, 12);
+  box-shadow: 0 0 25px rgb(238, 3, 3);
+}
+
+.light--yellow {
+  background-color: rgb(69, 69, 2);
+}
+.light.light--yellow.active {
+  background-color: rgb(209, 209, 52);
+  box-shadow: 0 0 25px yellow;
+}
+.light--green {
+  background-color: rgb(2, 41, 2);
+}
+.light.light--green.active {
+  background-color: rgb(31, 201, 31);
+  box-shadow: 0 0 25px rgb(31, 215, 31);
+}
+
+.btn-walk {
+  background-color: rgb(114, 82, 162);
+  box-shadow: 2px 2px rgb(48, 18, 125);
+  border-radius: 4px;
+  text-transform: uppercase;
+  line-height: 8px;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  color: rgb(19, 4, 43);
+  border: none;
+  margin: 0 10px;
+}
+.counter {
+  color: rgb(19, 4, 43);
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0;
+}
